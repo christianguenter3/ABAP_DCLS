@@ -1,0 +1,7 @@
+@EndUserText.label: 'z_test_acl'
+@MappingRole: true
+define role test_acl {
+  grant select on z_test_cds
+  where ( text ) =
+  aspect pfcg_auth (  Z_TEST, objname );
+}
