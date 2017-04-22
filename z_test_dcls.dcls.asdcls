@@ -2,6 +2,6 @@
 @MappingRole: true
 define role test_acl {
   grant select on z_test_cds
-  where ( text ) =
+  where ( arbgb ) =
   aspect pfcg_auth (  Z_TEST, objname );
 }
